@@ -2,6 +2,9 @@
 
 A complete, ready to use, Neumorphic ui kit for Flutter
 
+Please note this repo is the fork from the original repo. This repo updates SDK constraints to support Flutter >= 3.10.0.
+
+
 [![flutter_logo](https://github.com/Idean/Flutter-Neumorphic/blob/master/medias/flutter_logo_small.gif)](https://github.com/Idean/Flutter-Neumorphic)
 
 Try Flutter-Neumorphic on your browser : 👉 https://flutter-neumorphic.firebaseapp.com/ 🌐
@@ -19,9 +22,11 @@ https://pub.dartlang.org/packages/flutter_neumorphic)
 
 ```dart
 dependencies:
-  flutter_neumorphic: ^3.0.3
+  flutter_neumorphic:
+    git:
+      url: https://github.com/banghuazhao/Flutter-Neumorphic.git
 
-//requires flutter > 1.13.18
+//requires flutter > 3.10.0
 ```
 
 The in your .dart files 
